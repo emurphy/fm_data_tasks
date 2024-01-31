@@ -121,7 +121,9 @@ def parse_args() -> argparse.Namespace:
     )
 
     parser.add_argument(
-        "--stop_token", help="Token to stop on for a given generated response", default="\n"
+        "--stop_token",
+        help="Token to stop on for a given generated response",
+        default="\n",
     )
 
     # Model args
