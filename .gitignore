@@ -2,6 +2,9 @@ _build/
 # data/munching/
 data/
 
+outputs/
+*.sqlite
+
 *._*
 # Pickle Saved
 *.pt
